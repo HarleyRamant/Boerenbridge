@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/boerenbridge/static/css/main.25b008c8.chunk.css",
-    "main.js": "/boerenbridge/static/js/main.7caac9e3.chunk.js",
-    "main.js.map": "/boerenbridge/static/js/main.7caac9e3.chunk.js.map",
+    "main.js": "/boerenbridge/static/js/main.f80065f2.chunk.js",
+    "main.js.map": "/boerenbridge/static/js/main.f80065f2.chunk.js.map",
     "runtime-main.js": "/boerenbridge/static/js/runtime-main.a785c4f6.js",
     "runtime-main.js.map": "/boerenbridge/static/js/runtime-main.a785c4f6.js.map",
-    "static/js/2.9d054854.chunk.js": "/boerenbridge/static/js/2.9d054854.chunk.js",
-    "static/js/2.9d054854.chunk.js.map": "/boerenbridge/static/js/2.9d054854.chunk.js.map",
+    "static/js/2.5fe667ae.chunk.js": "/boerenbridge/static/js/2.5fe667ae.chunk.js",
+    "static/js/2.5fe667ae.chunk.js.map": "/boerenbridge/static/js/2.5fe667ae.chunk.js.map",
     "index.html": "/boerenbridge/index.html",
     "static/css/main.25b008c8.chunk.css.map": "/boerenbridge/static/css/main.25b008c8.chunk.css.map",
-    "static/js/2.9d054854.chunk.js.LICENSE.txt": "/boerenbridge/static/js/2.9d054854.chunk.js.LICENSE.txt"
+    "static/js/2.5fe667ae.chunk.js.LICENSE.txt": "/boerenbridge/static/js/2.5fe667ae.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a785c4f6.js",
-    "static/js/2.9d054854.chunk.js",
+    "static/js/2.5fe667ae.chunk.js",
     "static/css/main.25b008c8.chunk.css",
-    "static/js/main.7caac9e3.chunk.js"
+    "static/js/main.f80065f2.chunk.js"
   ]
 }
