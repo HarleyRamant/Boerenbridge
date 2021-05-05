@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/boerenbridge/static/css/main.cde30c03.chunk.css",
+    "main.css": "/boerenbridge/static/css/main.fb13f2eb.chunk.css",
     "main.js": "/boerenbridge/static/js/main.0cc9355d.chunk.js",
     "main.js.map": "/boerenbridge/static/js/main.0cc9355d.chunk.js.map",
     "runtime-main.js": "/boerenbridge/static/js/runtime-main.a785c4f6.js",
@@ -8,13 +8,13 @@
     "static/js/2.8ca5873a.chunk.js": "/boerenbridge/static/js/2.8ca5873a.chunk.js",
     "static/js/2.8ca5873a.chunk.js.map": "/boerenbridge/static/js/2.8ca5873a.chunk.js.map",
     "index.html": "/boerenbridge/index.html",
-    "static/css/main.cde30c03.chunk.css.map": "/boerenbridge/static/css/main.cde30c03.chunk.css.map",
+    "static/css/main.fb13f2eb.chunk.css.map": "/boerenbridge/static/css/main.fb13f2eb.chunk.css.map",
     "static/js/2.8ca5873a.chunk.js.LICENSE.txt": "/boerenbridge/static/js/2.8ca5873a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a785c4f6.js",
     "static/js/2.8ca5873a.chunk.js",
-    "static/css/main.cde30c03.chunk.css",
+    "static/css/main.fb13f2eb.chunk.css",
     "static/js/main.0cc9355d.chunk.js"
   ]
 }
