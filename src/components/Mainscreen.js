@@ -5,12 +5,40 @@ import RoundPage from './RoundPage'
 import ScoreboardPage from './ScoreboardPage'
 import SettingsPage from './SettingsPage'
 import {useState} from 'react'
-
+import './Mainscreen.css'
 
 const Mainscreen = () => {
-
-
+    /*DUMMYDATA*/ 
+    const tempPlayers = [
+        {
+            id: 1,
+            name: "Harley",
+            roundData: [{
+                round: 1,
+                startScore: 10,
+                bet: 0,
+                get: 0,
+                endScore: 10
+            }]
+        },
+        {
+            id: 2,
+            name: "Kevin",
+            roundData: [{
+                round: 1,
+                startScore: 10,
+                bet: 0,
+                get: 0,
+                endScore: 10
+            }]
+        }
+    ]
+    const [players, setPlayers] = useState(tempPlayers);
+    //const [players, setPlayers] = useState([]);
     
+
+
+
 
     return (
         <>
@@ -18,19 +46,19 @@ const Mainscreen = () => {
                 <Switch>
                     <Route path='/mainscreen/setup'>
                         <Navbar title='Setup Game' />
-                        <SetupPage/>
+                        <SetupPage players={players} setPlayers={setPlayers}/>
                     </Route>
                     <Route path='/mainscreen/round'>
                         <Navbar title='Game Round' />
-                        <RoundPage />
+                        <RoundPage data={players}/>
                     </Route>
                     <Route path='/mainscreen/scoreboard'>
                         <Navbar title='Scoreboard' />
-                        <ScoreboardPage />
+                        <ScoreboardPage data={players}/>
                     </Route>
                     <Route path='/mainscreen/settings'>
                         <Navbar title='Settings' />
-                        <SettingsPage/>
+                        <SettingsPage data={players} setPlayers={setPlayers}/>
                     </Route>
                 </Switch>
             </Router>    

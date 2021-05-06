@@ -12,7 +12,7 @@ const Navbar = (props) => {
     return (
         <div className='navbar'>
             <div className='navbar-top'>
-                <Hamburger onClick={handleClick}/>
+                <Hamburger onClick={handleClick} active={click}/>
                 <h2>{props.title}</h2>
             </div>
             <div className={click ? "navbar-menu-active navbar-menu" : "navbar-menu-hidden navbar-menu"}>

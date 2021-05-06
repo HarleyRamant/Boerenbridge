@@ -13,10 +13,12 @@ html, body {
     height: 100%;
     display: grid;
     grid-template-rows: 50px auto;
-    max-height: 800px;
-    max-width: 500px;
-    background-color: rgb(70, 70, 70);
-    
+    background: rgb(14, 0, 94);
+    background: radial-gradient(circle, rgb(84, 82, 245) 1%, rgb(14, 0, 94) 71%);
+    /*
+    background: rgb(0,142,14);
+    background: radial-gradient(circle, rgb(0, 112, 11) 44%, rgba(7,80,0,1) 71%);
+    */
     margin: auto;
 }
 

@@ -5,14 +5,37 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 5px;
+    
+    transition: all 0.2s linear;
 }
 
 .hamburger > div {
     width: 100%;
     height: 4px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border-radius: 2px;
+    
+    transition: all 0.2s linear;
 }
 .hamburger:hover *{
     transform: scale(1.1);
+}
+
+.hamburger-active {
+    transform: rotate(90deg) scaleX(0.8);
+    transition: all 0.2s linear;
+}
+.hamburger-active div:nth-child(2){
+    display: none;
+    transition: all 0.2s linear;
+}
+.hamburger-active div:nth-child(1) {
+    transform: rotate(-45deg) translateX(-5px) translateY(5px);
+    height: 5px;
+    transition: all 0.2s linear;
+}
+.hamburger-active div:nth-child(3) {
+    transform: rotate(45deg) translateX(-5px) translateY(-5px);
+    height: 5px;
+    transition: all 0.2s linear;
 }
