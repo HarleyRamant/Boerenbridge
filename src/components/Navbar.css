@@ -1,0 +1,51 @@
+.navbar {
+    height: 100%;
+    display: grid;
+    position: relative;
+}
+
+
+.navbar-top {
+    background: rgb(0, 24, 146);
+    /*background: linear-gradient(90deg, rgba(63,94,251,1) 1%, rgba(70,181,252,1) 98%);*/
+    height: 50px;
+    z-index: 5;
+    display: flex;
+}
+.navbar-top h2{
+    color: white;
+    margin: auto;
+    transform: translateX(-25px);
+}
+
+.navbar-menu {
+    background: rgb(63,94,251);
+    background: linear-gradient(180deg, rgb(0, 24, 146) 1%, rgb(11, 162, 255) 98%);
+    transition: all ease-in-out 0.2s;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    
+}
+.navbar-menu-active {
+    transform: translateY(0);
+}
+.navbar-menu-hidden {
+    transform: translateY(-100%);
+}
+.navbar-menu li {
+    font-size: 2em;
+    list-style: none;
+    padding: 10px;
+    padding-left: 1em;
+    color: white;
+}
+.navbar-menu li a {
+    color: white;
+    text-decoration: none;
+}
+.navbar-menu li:hover {
+    background-color: rgba(255, 255, 255, 0.301);
+}
+

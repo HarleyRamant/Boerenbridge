@@ -1,10 +1,9 @@
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import Game from './components/Game'
-import Navbar from './components/Navbar'
-import Startpage from './components/Startpage'
-import Settings from './components/Settings'
-import Scoreboard from './components/Scoreboard'
-
+import {Route, Switch} from 'react-router-dom'
+//import {BrowserRouter as Router} from 'react-router-dom'
+import {HashRouter as Router} from 'react-router-dom'
+import styles from './App.css'
+import Mainscreen from './components/Mainscreen';
+import StartScreen from './components/StartScreen';
 
 function App() {
 
@@ -18,31 +17,19 @@ function App() {
       name: "Tim"
     }
   ];
-  const test = "Dit is een test";
-
-
 
   return (
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/">
-            <Startpage />
+          <Route exact path='/'>
+            <StartScreen />
           </Route>
-          <Route path="/settings" >
-            <Navbar />
-            <Settings players={players}/>
-          </Route>
-          <Route path="/game">
-            <Navbar />
-            <Game />
-           </Route>
-          <Route path="/scoreboard">
-            <Navbar />
-            <Scoreboard />
+          <Route path ='/Mainscreen'>
+            <Mainscreen />
           </Route>
         </Switch>
-    </Router>
+      </Router>
     </div>
   );
 }

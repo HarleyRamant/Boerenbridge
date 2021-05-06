@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.App {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50px auto;
+    max-height: 800px;
+    max-width: 500px;
+    background-color: rgb(70, 70, 70);
+    
+    margin: auto;
+}
+
+#root {
+    height: 100%;
+}
+
